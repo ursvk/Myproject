@@ -19,6 +19,7 @@ public class Index {
 		driver.get("https://in.bookmyshow.com/");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
+		driver.close();
 	
 	}
 	}
